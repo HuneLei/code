@@ -1,0 +1,5 @@
+# -*- coding: cp936 -*-
+from PIL import Image
+
+im = Image.open("Á½Ö»À¶ÅÖ×Ó.jpg")
+im.rotate(45).show()
